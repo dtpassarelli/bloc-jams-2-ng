@@ -9,12 +9,10 @@
 			offsetXPercent = Math.min(1, offsetXPercent);
 			return offsetXPercent;
 		};
-
 		return {
 			templateUrl: '/templates/directives/seek_bar.html',
 			replace: true,
-			restrict: 'E'
-			debugger;
+			restrict: 'E',
 			scope: { },
 			link: function(scope, element, attributes) {
 				// directive logic to return
