@@ -44,7 +44,7 @@
 				// this method only makes the thumb wider. 
 				// I still need to figure out how to make it move with the mouse.
 				scope.thumbStyle = function () {
-					return {width: percentString()};
+					return {value: percentString()};
 				};
 
 				scope.onClickSeekBar = function (event) {
